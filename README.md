@@ -14,6 +14,45 @@ To test installation run
 make test
 ```
 
+## Deploy 2nodes network
+### 1. Start nodes
+```
+./raft-network/node1/startNode1.sh
+./raft-network/node2/startNode2.sh
+```
+
+### 2. Attach to a node
+From nodeN directory run
+```
+geth attach data/geth.ipc
+```
+
+### 3. Verify connection
+Run the following to check that nodes are correctly connected
+```
+raft.cluster
+```
+Output should be something like that
+```
+[{
+    hostname: "127.0.0.1",
+    nodeActive: true,
+    nodeId: "40959e63c64d7bb5f46cc2659729e9c267c35b46aad59ade346452cc11748f769cd31b2524e5ed58af856dc993acacd367dec1d9fb017528184669cdae0ed665",
+    p2pPort: 21000,
+    raftId: 1,
+    raftPort: 50000,
+    role: "minter"
+}, {
+    hostname: "127.0.0.1",
+    nodeActive: true,
+    nodeId: "82bd73a93fc2c4be643035f569adb3f790be8b5476ed2d400ca6dfd9a5feb4e49abf85d460a3ea9203d80943290fd55d4a5e83bb6a6023bb7d779be3413c2710",
+    p2pPort: 21001,
+    raftId: 2,
+    raftPort: 50001,
+    role: "verifier"
+}]
+```
+
 ## Reproducing from scratch
 ### 1. Create directories
 raft-network \

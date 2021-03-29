@@ -18,3 +18,15 @@
 19:31:59.630664 db@open done T·97.987375ms
 19:33:31.674348 db@close closing
 19:33:31.674632 db@close done T·280.594µs
+=============== Mar 29, 2021 (CEST) ===============
+19:54:19.210724 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:54:19.213011 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+19:54:19.213119 db@open opening
+19:54:19.213365 journal@recovery F·1
+19:54:19.217853 journal@recovery recovering @3
+19:54:19.241182 memdb@flush created L0@5 N·2 S·217B "Dat..ion,v25":"quo..ive,v24"
+19:54:19.247036 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+19:54:19.316834 db@janitor F·4 G·0
+19:54:19.316932 db@open done T·103.770623ms
+19:55:06.056512 db@close closing
+19:55:06.057392 db@close done T·874.386µs
