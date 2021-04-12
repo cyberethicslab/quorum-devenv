@@ -913,7 +913,8 @@
   },
   "networks": {},
   "schemaVersion": "3.3.4",
-  "updatedAt": "2021-04-07T15:55:22.779Z",
+  "updatedAt": "2021-04-12T13:13:24.390Z",
+  "networkType": "quorum",
   "devdoc": {
     "methods": {}
   },

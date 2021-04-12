@@ -853,9 +853,17 @@
     "name": "solc",
     "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "10": {
+      "events": {},
+      "links": {},
+      "address": "0x1932c48b2bF8102Ba33B4A6B545C32236e342f34",
+      "transactionHash": "0x6be7f24aa52fe04a590fe2e3939d4418e13c0182969158f96833a5273ad92876"
+    }
+  },
   "schemaVersion": "3.3.4",
-  "updatedAt": "2021-04-08T14:15:54.765Z",
+  "updatedAt": "2021-04-12T13:13:24.377Z",
+  "networkType": "quorum",
   "devdoc": {
     "methods": {},
     "title": "SimpleStorage"

@@ -1,8 +1,8 @@
-=============== Apr 8, 2021 (CEST) ===============
-17:07:43.305601 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
-17:07:43.347350 db@open opening
-17:07:43.348586 version@stat F·[] S·0B[] Sc·[]
-17:07:43.370746 db@janitor F·2 G·0
-17:07:43.370850 db@open done T·23.404578ms
-17:07:43.373048 db@close closing
-17:07:43.373280 db@close done T·229.746µs
+=============== Apr 12, 2021 (CEST) ===============
+16:14:31.448882 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:14:31.490725 db@open opening
+16:14:31.491807 version@stat F·[] S·0B[] Sc·[]
+16:14:31.515017 db@janitor F·2 G·0
+16:14:31.515126 db@open done T·24.32627ms
+16:14:31.517201 db@close closing
+16:14:31.517421 db@close done T·216.759µs
